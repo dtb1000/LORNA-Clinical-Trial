@@ -1,96 +1,96 @@
 ## **DATA DICTIONARY**
 
 ### **ae.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-TREATMENT: Treatment arm to which subject is assigned
-VISIT: Visit during which adverse event was reported
-REPORTED\_EVENT: Type of adverse event
-SEVERITY: Severity of reported adverse event
-SERIOUS: Seriousness of adverse event
-START\_DATE: Start date of adverse event
-END\_DATE: End date of adverse event
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. TREATMENT: Treatment arm to which subject is assigned
+5. VISIT: Visit during which adverse event was reported
+6. REPORTED\_EVENT: Type of adverse event
+7. SEVERITY: Severity of reported adverse event
+8. SERIOUS: Seriousness of adverse event
+9. START\_DATE: Start date of adverse event
+10. END\_DATE: End date of adverse event
 
 ### **concom\_med.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-MEDICATION: Name of non-study drugs being taken by the subject
-DOSE: Dose of concomitant medication
-UNIT: Unit of dose
-FORMULATION: Formulation of concomitant medication
-FREQUENCY: Frequency of dose
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. MEDICATION: Name of non-study drugs being taken by the subject
+5. DOSE: Dose of concomitant medication
+6. UNIT: Unit of dose
+7. FORMULATION: Formulation of concomitant medication
+8. FREQUENCY: Frequency of dose
 
 ### **deviations.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-ERROR: Type of deviation
-VISIT\_TYPE: Type of visit
-VISIT\_DATE: Date of visit
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. ERROR: Type of deviation
+5. VISIT\_TYPE: Type of visit
+6. VISIT\_DATE: Date of visit
 
 ### **exposure.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-TREATMENT\_ARM: Treatment arm to which subject is assigned
-ARM\_CODE: Treatment arm code
-START\_DATE: Date on which treatment was started
-END\_DATE: Date on which treatment was ended
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. TREATMENT\_ARM: Treatment arm to which subject is assigned
+5. ARM\_CODE: Treatment arm code
+6. START\_DATE: Date on which treatment was started
+7. END\_DATE: Date on which treatment was ended
 
 ### **labs.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-VISIT\_TYPE: Type of visit
-VISIT\_DATE: Date of visit
-TEST: Test code
-TEST\_NAME: Full name of test parameter
-RESULT: Measured value of test parameter
-UNIT: Unit in which the test parameter is measured
-LOWER: Normal lower limit of test parameter
-UPPER: Normal upper limit of test parameter
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. VISIT\_TYPE: Type of visit
+5. VISIT\_DATE: Date of visit
+6. TEST: Test code
+7. TEST\_NAME: Full name of test parameter
+8. RESULT: Measured value of test parameter
+9. UNIT: Unit in which the test parameter is measured
+10. LOWER: Normal lower limit of test parameter
+11. UPPER: Normal upper limit of test parameter
 
 ### **medical\_history.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-MEDICAL\_BG: Underlying condition of the subject
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. MEDICAL\_BG: Underlying condition of the subject
 
 ### **study\_metadata.csv**
-STUDY\_ID: ID of the clinical trial
-PHASE: Phase of the clinical trial
-STUDY\_TYPE: Study design of clinical trial
-N\_SUBJECTS: Number of subjects enrolled
-N\_SITES: Number of sites participating
-COUNTRY: Country in which the clinical trial is taking place
-SEED: Random seed number used to generate the synthetic clinical trial data
+1. STUDY\_ID: ID of the clinical trial
+2. PHASE: Phase of the clinical trial
+3. STUDY\_TYPE: Study design of clinical trial
+4. N\_SUBJECTS: Number of subjects enrolled
+5. N\_SITES: Number of sites participating
+6. COUNTRY: Country in which the clinical trial is taking place
+7. SEED: Random seed number used to generate the synthetic clinical trial data
 
 ### **subjects.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-AGE: Age of subject
-SEX: Sex of subject
-RACE: Race of the subject
-ETHNICITY: Ethnicity of the subject
-ENROLLED\_ON: Date of subject enrollment
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. AGE: Age of subject
+5. SEX: Sex of subject
+6. RACE: Race of the subject
+7. ETHNICITY: Ethnicity of the subject
+8. ENROLLED\_ON: Date of subject enrollment
 
 ### **visits.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-VISIT\_TYPE: Type of visit
-VISIT\_DATE: Date of visit
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. VISIT\_TYPE: Type of visit
+5. VISIT\_DATE: Date of visit
 
 #### **vitals.csv**
-SUBJECT\_NUM: Subject serial number
-SUBJECT\_ID: Unique subject identifier
-SITEID: Study site identifier
-VISIT\_TYPE: Type of visit
-VISIT\_DATE: Date of visit
-TEST: Test code
-TEST\_NAME: Full name of test parameter
-RESULT: Measured value of test parameter
-UNIT: Unit in which the test parameter is measured
+1. SUBJECT\_NUM: Subject serial number
+2. SUBJECT\_ID: Unique subject identifier
+3. SITEID: Study site identifier
+4. VISIT\_TYPE: Type of visit
+5. VISIT\_DATE: Date of visit
+6. TEST: Test code
+7. TEST\_NAME: Full name of test parameter
+8. RESULT: Measured value of test parameter
+9. UNIT: Unit in which the test parameter is measured
