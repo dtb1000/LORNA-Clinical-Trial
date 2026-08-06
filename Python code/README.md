@@ -1,15 +1,15 @@
-#### **CLINICAL TRIAL DATA CLEANUP AND TRANSFORMATION PROJECT**
+## **CLINICAL TRIAL DATA CLEANUP AND TRANSFORMATION PROJECT**
 
-###### **Introduction**
+### **Introduction**
 This project was intended to demonstrate a small-scale end-to-end clinical data workflow using Python, SAS, SQL (PROC SQL), and Power BI.
 
-###### **Workflow**
+### **Workflow**
 1. Generate random clinical trial data using Python
 2. Validate and perform initial data cleanup using SAS
 3. Map data into appropriate SDTM domains using SAS and SQL (PROC SQL)
 4. Create dashboards to visualise trends using Power BI (to be updated)
 
-###### **Simulated study details**
+### **Simulated study details**
 Study ID				            LORNA
 Phase of CT				          Phase II
 Trial design				        Parallel groups with randomisation
@@ -17,7 +17,7 @@ Treatment arms				      Placebo, Drug A, Drug B
 Number of subjects			    300
 Number of study sites			   4
 
-###### **Files generated from the Python script**
+### **Files generated from the Python script**
 ae.csv					             Contains reports of any adverse events
 concom\_med.csv				       Contains information about any medications taken by subjects
 deviations.csv				       Contains information about any protocol deviations
@@ -29,7 +29,7 @@ subjects.csv			         	 Contains data about each subject
 visits.csv				           Contains data about each subject's visits
 vitals.csv				           Contains vital signs measurements for each subject for each visit
 
-###### **Intentional data quality issues**
+### **Intentional data quality issues**
 1. Missing values
 2. Invalid ages
 3. Duplicate subjects
