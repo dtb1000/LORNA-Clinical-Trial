@@ -39,5 +39,5 @@ This project was intended to demonstrate a small-scale end-to-end clinical data 
 
 **Note:** Consult data\_dictionary.md for details about the variables in the CSV files.
 
-**Note:** Consult modifying\_the\_code.md for information about how to make changes to the Python code parameters.
+**Note:** Consult tutorial.md for information about how to run the Python code and make changes.
 
