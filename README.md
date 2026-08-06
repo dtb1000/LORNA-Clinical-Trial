@@ -1,7 +1,7 @@
 # CLINICAL TRIAL DATA CLEANUP AND TRANSFORMATION PROJECT
 
 ## Introduction
-This project was intended to demonstrate a small-scale end-to-end clinical data workflow using Python, SAS, SQL, and Power BI. The objective was to simulate a realistic clinical trial and process the resulting data in a manner similar to workflows in clinical research and pharmaceutical environments. In order to introduce an element of reality, quality issues were intentionally included to necessitate data validation and cleaning before they can be transformed into standard formats and analysed.
+This project was intended to demonstrate a small-scale end-to-end clinical data workflow using Python, SAS, SQL (PROC SQL), and Power BI. The objective was to simulate a realistic clinical trial and process the resulting data in a manner similar to workflows in clinical research and pharmaceutical environments. In order to introduce an element of reality, quality issues were intentionally included to necessitate data validation and cleaning before they can be transformed into standard formats and analysed.
 
 ## Technology stack
 ### Python
@@ -10,7 +10,7 @@ This project was intended to demonstrate a small-scale end-to-end clinical data 
 ### SAS
 •	Used for initial data validation and cleanup, normalisation of data into intermediate datasets, and standard data tabulation model (SDTM) mapping
 
-### PROC SQL
+### SQL (PROC SQL)
 •	Used for normalisation of data into intermediate datasets and SDTM mapping
 
 ### Power BI (to be updated)
