@@ -10,11 +10,16 @@ This project was intended to demonstrate a small-scale end-to-end clinical data 
 4. Create dashboards to visualise trends using Power BI (to be updated)
 
 ### **Simulated study details**
-Study ID				            LORNA
+Study ID                    LORNA
+
 Phase of CT				          Phase II
+
 Trial design				        Parallel groups with randomisation
+
 Treatment arms				      Placebo, Drug A, Drug B
+
 Number of subjects			    300
+
 Number of study sites			   4
 
 ### **Files generated from the Python script**
