@@ -10,29 +10,24 @@ This project was intended to demonstrate a small-scale end-to-end clinical data 
 4. Create dashboards to visualise trends using Power BI (to be updated)
 
 ### **Simulated study details**
-Study ID                    LORNA
-
-Phase of CT				          Phase II
-
-Trial design				        Parallel groups with randomisation
-
-Treatment arms				      Placebo, Drug A, Drug B
-
-Number of subjects			    300
-
-Number of study sites			   4
+1. Study ID: LORNA
+2. Phase of CT: Phase II
+3. Trial design: Parallel groups with randomisation
+4. Treatment arms: Placebo, Drug A, Drug B
+5. Number of subjects: 300
+6. Number of study sites: 4
 
 ### **Files generated from the Python script**
-ae.csv					             Contains reports of any adverse events
-concom\_med.csv				       Contains information about any medications taken by subjects
-deviations.csv				       Contains information about any protocol deviations
-exposure.csv				         Contains information about the treatment arm as well as start and stop dates
-labs.csv				             Contains lab test results for each subject during each visit
-medical\_history.csv			   Contains information about any underlying conditions of subjects
-study\_metadata.csv			     Contains data about the study
-subjects.csv			         	 Contains data about each subject
-visits.csv				           Contains data about each subject's visits
-vitals.csv				           Contains vital signs measurements for each subject for each visit
+1. ae.csv: Contains reports of any adverse events
+2. concom\_med.csv: Contains information about any medications taken by subjects
+3. deviations.csv: Contains information about any protocol deviations
+4. exposure.csv: Contains information about the treatment arm as well as start and stop dates
+5. labs.csv: Contains lab test results for each subject during each visit
+6. medical\_history.csv: Contains information about any underlying conditions of subjects
+7. study\_metadata.csv: Contains data about the study
+8. subjects.csv: Contains data about each subject
+9. visits.csv: Contains data about each subject's visits
+10. vitals.csv: Contains vital signs measurements for each subject for each visit
 
 ### **Intentional data quality issues**
 1. Missing values
