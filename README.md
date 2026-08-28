@@ -1,7 +1,7 @@
-# CLINICAL TRIAL DATA CLEANUP AND TRANSFORMATION PROJECT
+# CLINICAL TRIAL DATA CLEANUP, MAPPING, AND ANALYSIS PROJECT
 
 ## Introduction
-This project was intended to demonstrate a small-scale end-to-end clinical data workflow using Python, SAS, SQL (PROC SQL and PostgreSQL), and Power BI. The objective was to simulate a realistic clinical trial and process the resulting data in a manner similar to workflows in clinical research and pharmaceutical environments. In order to introduce an element of reality, quality issues were intentionally included to necessitate data validation and cleaning before they can be transformed into standard formats and analysed.
+This project was intended to demonstrate a small-scale end-to-end clinical data workflow using Python, SAS, SQL (PROC SQL and PostgreSQL), and Power BI. The objective was to simulate a realistic clinical trial and process the resulting data in a manner similar to workflows in clinical research and pharmaceutical environments. In order to introduce an element of reality, quality issues were intentionally included to necessitate data validation and cleaning before they can be transformed into standard formats and analysed. Finally, interactive reports were created to view various trends in the dataset.
 
 ## Technology stack
 ### Python
@@ -12,7 +12,8 @@ This project was intended to demonstrate a small-scale end-to-end clinical data 
 
 ### SQL (PROC SQL and PostgreSQL)
 •	PROC SQL was used for normalisation of data into intermediate datasets and SDTM mapping
-•	PostgreSQL was used to store CSV files corresponding to mapped SDTM domains to connect with Power BI
+
+•	DBeaver was used to create a PostgreSQL database to store CSV files corresponding to mapped SDTM domains to connect with Power BI
 
 ### Power BI
 •	Used to create reports for mapped SDTM domains
