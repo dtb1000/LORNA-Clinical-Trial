@@ -1,0 +1,7 @@
+STUDYID,DOMAIN,VISITNUM,VISIT,ARMCD,ARM,TVSTRL,TVENRL
+LORNA,TV,1,SCREENING,,,Start of SCREENING Epoch,2 hours after the start of the Visit
+LORNA,TV,2,BASELINE,,,Start of TREATMENT1 Epoch,30 minutes after the start of the Visit
+LORNA,TV,3,WEEK 4,,,Start of TREATMENT2 Epoch,30 minutes after the start of the Visit
+LORNA,TV,4,WEEK 8,,,Start of TREATMENT3 Epoch,30 minutes after the start of the Visit
+LORNA,TV,5,WEEK 12,,,Start of TREATMENT4 Epoch,30 minutes after the start of the Visit
+LORNA,TV,6,FOLLOW-UP,,,Start of FOLLOW-UP Epoch,At Trial Exit

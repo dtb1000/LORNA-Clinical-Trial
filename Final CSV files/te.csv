@@ -1,0 +1,6 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL,TEDUR
+LORNA,TE,SCRN,SCREENING,Informed consent,2 weeks after the start of the Element,P14
+LORNA,TE,TRT,200 mg,"First dose of a treatment Epoch, where the dose is 200 mg",4 weeks after the start of the Element,P28
+LORNA,TE,TRT,300 mg,"First dose of a treatment Epoch, where the dose is 300 mg",4 weeks after the start of the Element,P28
+LORNA,TE,PLC,PLACEBO,"First dose of a treatment Epoch, where the dose is a placebo",4 weeks after the start of the Element,P28
+LORNA,TE,FU,FOLLOW-UP,4 weeks after the last dose of the preceding treatment Epoch,At Trial Exit,P1D
