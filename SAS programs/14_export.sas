@@ -21,4 +21,4 @@ quit;
 	%end;
 %mend;
 
-%export_all_xpt
+%export_all_xpt;
