@@ -208,15 +208,3 @@ Before writing, it:
 3. Checks the version 5 limits (variable names up to 8 characters, labels up to 40, character values up to 200 bytes) and stops if any domain breaks them.
 
 The XPT files are written with `format=V5`, the SAS transport version 5 format that FDA submissions and Pinnacle 21 expect.
-
----
-
-## Next steps
-
-- [x] Re-export the XPT files as version 5
-- [x] Create define.xml in [`define/`](define/)
-- [x] Validate with Pinnacle 21 Community and add the report to [`validation/`](validation/)
-- [x] Resolve the findings in [`validation/README.md`](validation/README.md): add TS, fix three controlled terminology values, make VISITDY numeric, resize variables, add study days and blank units and ranges on NOT DONE records
-- [x] Restore TV.ARMCD as an empty variable in `05_tv.sas` (Expected in SDTMIG v3.4)
-- [x] Re-create define.xml and re-validate: 14 messages, no rejection criteria, no define.xml findings
-- [ ] Write a Study Data Reviewer's Guide explaining the remaining messages
