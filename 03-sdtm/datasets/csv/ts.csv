@@ -1,0 +1,58 @@
+STUDYID,DOMAIN,TSSEQ,TSPARMCD,TSPARM,TSVAL,TSVALNF,TSVALCD,TSVCDREF,TSVCDVER
+LORNA,TS,1,ACTSUB,Actual Number of Subjects,300,,,,
+LORNA,TS,1,ADAPT,Adaptive Design,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,ADDON,Added on to Existing Treatments,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,AGEMAX,Planned Maximum Age of Subjects,P85Y,,,ISO 8601,
+LORNA,TS,1,AGEMIN,Planned Minimum Age of Subjects,P18Y,,,ISO 8601,
+LORNA,TS,1,CURTRT,Current Therapy or Treatment,,NA,,,
+LORNA,TS,1,DCUTDESC,Data Cutoff Description,LAST SUBJECT LAST VISIT,,,,
+LORNA,TS,1,DCUTDTC,Data Cutoff Date,2024-02-18,,,ISO 8601,
+LORNA,TS,1,EXTTIND,Extension Trial Indicator,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,FCNTRY,Planned Country of Investigational Sites,USA,,USA,ISO 3166,
+LORNA,TS,1,HLTSUBJI,Healthy Subject Indicator,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,INDIC,Trial Disease/Condition Indication,Chronic liver disease,,328383001,SNOMED,2025-09
+LORNA,TS,1,INTMODEL,Intervention Model,PARALLEL,,C82639,CDISC CT,2025-09-26
+LORNA,TS,1,INTTYPE,Intervention Type,DRUG,,C1909,CDISC CT,2025-09-26
+LORNA,TS,1,LENGTH,Trial Length,P18W,,,ISO 8601,
+LORNA,TS,1,NARMS,Planned Number of Arms,3,,,,
+LORNA,TS,1,NCOHORT,Number of Groups/Cohorts,3,,,,
+LORNA,TS,1,OBJPRIM,Trial Primary Objective,"To compare the effects of Drug A and of Drug B with placebo on liver function (ALT, AST) and systemic inflammation (CRP) in adults with CLD",,,,
+LORNA,TS,2,OBJPRIM,Trial Primary Objective,To evaluate the safety and tolerability of Drug A and Drug B compared with placebo from first dose through follow-up,,,,
+LORNA,TS,1,OBJSEC,Trial Secondary Objective,"To compare the magnitude and time course of changes in ALT, AST, CRP and HGB among the three treatment groups, including Drug A versus Drug B",,,,
+LORNA,TS,2,OBJSEC,Trial Secondary Objective,To assess the proportion of participants achieving clinically meaningful improvements in laboratory biomarkers,,,,
+LORNA,TS,1,ONGOSIND,Ongoing Study Indicator,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,OUTMSPRI,Primary Outcome Measure,Change from baseline to Week 12 in ALT,,,,
+LORNA,TS,2,OUTMSPRI,Primary Outcome Measure,Change from baseline to Week 12 in AST,,,,
+LORNA,TS,3,OUTMSPRI,Primary Outcome Measure,Change from baseline to Week 12 in CRP,,,,
+LORNA,TS,4,OUTMSPRI,Primary Outcome Measure,"Incidence, severity and relationship of treatment-emergent adverse events from first dose through follow-up",,,,
+LORNA,TS,1,OUTMSSEC,Secondary Outcome Measure,"Mean change from baseline in ALT, AST, CRP and HGB at Weeks 4, 8 and 12 and at follow-up",,,,
+LORNA,TS,2,OUTMSSEC,Secondary Outcome Measure,"Difference between Drug A and Drug B in mean change from baseline to Week 12 in ALT, AST, CRP and HGB",,,,
+LORNA,TS,3,OUTMSSEC,Secondary Outcome Measure,"Proportion of participants achieving the predefined improvement in CRP, ALT, AST and HGB at Week 12",,,,
+LORNA,TS,4,OUTMSSEC,Secondary Outcome Measure,"Change from baseline in vital signs at Weeks 4, 8 and 12 and at follow-up",,,,
+LORNA,TS,1,PCLAS,Pharmacologic Class,,UNK,,,
+LORNA,TS,1,PDPSTIND,Pediatric Postmarket Study Indicator,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,PDSTIND,Pediatric Study Indicator,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,PIPIND,Pediatric Investigation Plan Indicator,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,PLANSUB,Planned Number of Subjects,300,,,,
+LORNA,TS,1,RANDOM,Trial is Randomized,Y,,C49488,CDISC CT,2025-09-26
+LORNA,TS,1,RDIND,Rare Disease Indicator,N,,C49487,CDISC CT,2025-09-26
+LORNA,TS,1,REGID,Registry Identifier,NCT00001240,,NCT00001240,ClinicalTrials.gov,
+LORNA,TS,1,SDTIGVER,SDTM IG Version,3.4,,,,
+LORNA,TS,1,SDTMVER,SDTM Version,2.0,,,,
+LORNA,TS,1,SENDTC,Study End Date,2024-02-18,,,ISO 8601,
+LORNA,TS,1,SEXPOP,Sex of Participants,BOTH,,C49636,CDISC CT,2025-09-26
+LORNA,TS,1,SPONSOR,Clinical Study Sponsor,PR Life Sciences,,,,
+LORNA,TS,1,SSTDTC,Study Start Date,2022-12-20,,,ISO 8601,
+LORNA,TS,1,STOPRULE,Study Stop Rules,The DSMB reviews unblinded safety data and may recommend modification or termination of the study for safety reasons only,,,,
+LORNA,TS,1,STYPE,Study Type,INTERVENTIONAL,,C98388,CDISC CT,2025-09-26
+LORNA,TS,1,TBLIND,Trial Blinding Schema,DOUBLE BLIND,,C15228,CDISC CT,2025-09-26
+LORNA,TS,1,TCNTRL,Control Type,PLACEBO,,C49648,CDISC CT,2025-09-26
+LORNA,TS,1,TDIGRP,Diagnosis Group,Chronic liver disease,,328383001,SNOMED,2025-09
+LORNA,TS,1,THERAREA,Therapeutic Area,HEPATOLOGY,,,,
+LORNA,TS,1,TINDTP,Trial Intent Type,TREATMENT,,C49656,CDISC CT,2025-09-26
+LORNA,TS,1,TITLE,Trial Title,Long-term Outcomes and Response Assessment of a Novel Agent (LORNA) Trial,,,,
+LORNA,TS,1,TPHASE,Trial Phase Classification,PHASE II TRIAL,,C15601,CDISC CT,2025-09-26
+LORNA,TS,1,TRT,Investigational Therapy or Treatment,DRUG A,,,UNII,2026-08-04
+LORNA,TS,2,TRT,Investigational Therapy or Treatment,DRUG B,,,UNII,2026-08-04
+LORNA,TS,1,TTYPE,Trial Type,EFFICACY,,C49666,CDISC CT,2025-09-26
+LORNA,TS,2,TTYPE,Trial Type,SAFETY,,C49667,CDISC CT,2025-09-26

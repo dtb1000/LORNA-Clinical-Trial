@@ -1,0 +1,7 @@
+STUDYID,DOMAIN,VISITNUM,VISIT,VISITDY,ARMCD,TVSTRL,TVENRL
+LORNA,TV,1,SCREENING,-14,,"Day -14, start of the SCREENING Epoch (informed consent)",2 hours after the start of the Visit
+LORNA,TV,2,BASELINE,1,,"Day 1, before the first dose of study drug",30 minutes after the start of the Visit
+LORNA,TV,3,WEEK 4,29,,"Day 29 (+/- 5 days), second dose of study drug",30 minutes after the start of the Visit
+LORNA,TV,4,WEEK 8,57,,"Day 57 (+/- 5 days), third dose of study drug",30 minutes after the start of the Visit
+LORNA,TV,5,WEEK 12,85,,"Day 85 (+/- 5 days), fourth dose of study drug",30 minutes after the start of the Visit
+LORNA,TV,6,FOLLOW-UP,113,,"Day 113 (+/- 5 days), 4 weeks after fourth dose of study drug",At Trial Exit

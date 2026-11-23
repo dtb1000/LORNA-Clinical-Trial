@@ -1,0 +1,6 @@
+STUDYID,DOMAIN,ETCD,ELEMENT,TESTRL,TEENRL,TEDUR
+LORNA,TE,SCRN,SCREENING,Informed consent,2 weeks after the start of the Element,P14D
+LORNA,TE,TRTA,DRUG A 200 MG,"Dose of study drug, where study drug is Drug A 200 mg",4 weeks after the start of the Element,P28D
+LORNA,TE,TRTB,DRUG B 300 MG,"Dose of study drug, where study drug is Drug B 300 mg",4 weeks after the start of the Element,P28D
+LORNA,TE,PLC,PLACEBO,"Dose of study drug, where study drug is placebo",4 weeks after the start of the Element,P28D
+LORNA,TE,FU,FOLLOW-UP,4 weeks after the last dose of the preceding treatment Epoch,At Trial Exit,
