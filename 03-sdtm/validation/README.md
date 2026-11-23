@@ -72,15 +72,3 @@ Each remaining message is explained below. A real submission would record these 
 2. Add the 14 XPT files from `../datasets/xpt/` and `../define/define.xml`.
 3. Set SDTM CT to *2025-09-26* and select **Validate**.
 4. Copy the report from `Documents\Pinnacle 21 Community\reports` into this folder as `LORNA-SDTM-P21-report.xlsx`.
-
-## Progress
-
-- [x] First validation run: 47 messages, none from define.xml
-- [x] Add TS
-- [x] Fix the three controlled terminology values
-- [x] Make VISITDY numeric and resize character variables
-- [x] Add the missing study-day variables
-- [x] Blank units and ranges on NOT DONE records
-- [x] Re-create define.xml and re-run the validation: 15 messages, no rejection criteria
-- [x] Restore TV.ARMCD as an empty variable and re-validate: 14 messages, no rejection criteria, no define.xml findings
-- [ ] Write the explanations into a Study Data Reviewer's Guide
